@@ -1,0 +1,13 @@
+{% extends 'myapp2/base.html' %}
+{% block title %} Добавление (изменение) продукта {% endblock %}
+
+
+{% block content %}
+<h1>Изменение параметров продукта: {{product.title}}, id={{product.id}}</h1>
+
+<form action="" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <p>{{ form.as_p }}</p>
+    <input class="button btn-primary" type="submit" value="Сохранить">
+</form>
+{% endblock %}
