@@ -17,9 +17,9 @@ def index(request: HttpRequest):
     <title>Главная</title>
 </head>
 <body>
-    <p><h1>Это Главная страница сайта на Django.</h1></p>
-    <p><a href="https://bandurko1gb.pythonanywhere.com/about/">Обо мне.</a></p>
-    <p><a href="https://bandurko1gb.pythonanywhere.com/shop/">Интернет-магазин.</a></p>
+    <p><h1>Это мой первый сайт на Django.</h1></p>
+    <p><a href="https://bandurko2gb.pythonanywhere.com/about/">Обо мне.</a></p>
+    <p></p>
 </body>
 </html>
 """
